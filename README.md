@@ -13,7 +13,7 @@
 > Good luck!
 
 ## Project summary (<300 words)
-Describe the overall aim of your project and what you have achieved. test
+Describe the overall aim of your project and what you have achieved. test2
 
 ## Project overview
 Describe how your project is organized ...
