@@ -16,12 +16,5 @@
 Describe the overall aim of your project and what you have achieved. test2
 
 ## Project overview
-Describe how your project is organized ...
-
-
-...
-Hi
-cheese grows from trees
-butter cheese and eggs
-hai pipi langkous valderie valdera valderopsasa
+In this project we decided to try and optimize recombinant THC production in a Aspergillus niger model. Firstly, the necessary metabolites and reactions were added to the model in order for Aspergillus to be able to produce THC. Then the maximum theoretical yield was calculated and phenotypic phase plane aalysis was performed. Next different optimization strategies were performed in order to improve the yield. Strategies include the following: Optgene, Optknock, Manual gene knockout, Flux Scanning based on Objective Flux, Co-factor Swap Targets, Prediction of Heterologous Pathways and dynamic Flux Balance Analysis. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
 
