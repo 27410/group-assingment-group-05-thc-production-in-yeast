@@ -16,28 +16,18 @@
 In this project we decided to try and optimize recombinant THCA production in a *Aspergillus niger* model. Firstly, the necessary metabolites and reactions were added to the model in order for *A. niger* to be able to produce THCA. The maximum theoretical yield was calculated and phenotypic phase plane analysis was performed. Next to this, different optimization strategies were performed in order to improve the yield. Strategies include the following: OptGene, OptKnock, Manual gene knockout, Flux Scanning based on Objective Flux, Co-factor Swap Targets, Prediction of Heterologous Pathways and Dynamic Flux Balance Analysis. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
 
 A summary of what we achieved in this project: 
-- Computed a production strategy of heterologous psilocybin production in *A. niger* using a GSM model, and employed various  computational methods to improve theoretical psilocybin yield.
-- Computed gene regulation targets
-- Investigated co-factor swapping 
-- Media optimization
+- Computed a production strategy of heterologous THCA production in *A. niger* using a GSM model, and employed various  computational methods to improve theoretical THCA yield.
+- Computed gene regulation optimization and proposed several targets to upregulate and downregulate.
+- Investigated co-factor swapping.
+- Computed media optimization and proposed several combinations.
+- Computed dynamic flux batch analysis.
+- Computed metabolic algorithms proposing gene knockouts aiming at optimizing THCA production.
 
 
-
-#Example report:
-
-## Project summary (<300 words)
-This project is aimed at introducing the heterologous biosynthetic pathway for psilocybin production in an existing GSM of *A. niger*, and thereafter use computational methods to identify which changes to the model could optimize production. Cofactor swap optimization revealed swapping cofactor specificity of two reactions in the model from NADPH to NADH could potentially improve theoretical yield of psilocybin. Investigation of gene regulation targets revealed several reactions that could be either upregulated or downregulated to improve psilocybin production flux. Two of the enzymes targeted for upregulation are in the shikimate pathway, which leads to the psilocybin precursor tryptophan, and were also shown to improve psilocybin production in previous studies. Several new gene prediction targets for upregulation, including methylation reactions, were found that could lead to promising results in follow up studies on the effect of their upregulation. Media optimization showed that addition of YEPD to the media led to a slight reduction in yield, but an increase in the production flux of the last step in psilocybin biosynthesis by a factor of 17.
-
-A summary of what we achieved in this project: 
-- Computed a production strategy of heterologous psilocybin production in *A. niger* using a GSM model, and employed various  computational methods to improve theoretical psilocybin yield.
-- Computed gene regulation targets
-- Investigated co-factor swapping 
-- Media optimization
 
 
 ## Project overview
-- Our project is organized with two folders in the main folder. All of our work and analysis of the GSM, ATCC1015 iJB1325, including the model, is found in the <b>Analysis</b> folder.
-- The report lives in the Report.ipynb notebook, and contains links to the notebooks in the <b>Analysis</b> folder.
-- Pictures used in the report are stored in the <b>Pics</b> folder.
-- Appendix is found in the <b>Analysis</b> folder. 
+- All of our work and analysis is found in the <b>Analysis</b> folder.
+- The report lives in the Report.ipynb notebook.
+- Pictures used in the report are stored in the <b>Pictures</b> folder.
 
