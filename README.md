@@ -13,11 +13,13 @@
 > Good luck!
 
 ## Project summary (<300 words)
-Describe the overall aim of your project and what you have achieved.
+In this project we decided to try and optimize recombinant THCA production in a *Aspergillus niger* model. Firstly, the necessary metabolites and reactions were added to the model in order for *A. niger* to be able to produce THCA. The maximum theoretical yield was calculated and phenotypic phase plane analysis was performed. Next to this, different optimization strategies were performed in order to improve the yield. Strategies include the following: OptGene, OptKnock, Manual gene knockout, Flux Scanning based on Objective Flux, Co-factor Swap Targets, Prediction of Heterologous Pathways and Dynamic Flux Balance Analysis. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
 
-## Project overview
-In this project we decided to try and optimize recombinant THC production in a Aspergillus niger model. Firstly, the necessary metabolites and reactions were added to the model in order for Aspergillus to be able to produce THC. The maximum theoretical yield was calculated and phenotypic phase plane aalysis was performed. Next to this, different optimization strategies were performed in order to improve the yield. Strategies include the following: Optgene, Optknock, Manual gene knockout, Flux Scanning based on Objective Flux, Co-factor Swap Targets, Prediction of Heterologous Pathways and dynamic Flux Balance Analysis. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
-
+A summary of what we achieved in this project: 
+- Computed a production strategy of heterologous psilocybin production in *A. niger* using a GSM model, and employed various  computational methods to improve theoretical psilocybin yield.
+- Computed gene regulation targets
+- Investigated co-factor swapping 
+- Media optimization
 
 
 
