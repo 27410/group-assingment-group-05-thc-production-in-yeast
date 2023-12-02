@@ -4,21 +4,19 @@
 # 27410 - Group assignment - Group 5 - THCA production in Aspergillus niger
 
 ## Project summary
-In this project we decided to try and optimize recombinant THCA production in a *Aspergillus niger* model. Firstly, the necessary metabolites and reactions were added to the model in order for *A. niger* to be able to produce THCA. The maximum theoretical yield was calculated and phenotypic phase plane analysis was performed. Next to this, different optimization strategies were performed in order to improve the yield. Strategies include the following: OptGene, OptKnock, Manual gene knockout, Flux Scanning based on Objective Flux, Co-factor Swap Targets, Prediction of Heterologous Pathways and Dynamic Flux Balance Analysis. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
+Implementing and optimization of recombinant THCA production in a *Aspergillus niger* is done in the GSM-model CBS513.88. Firstly, the necessary metabolites and reactions were added to the model in order for *A. niger* to be able to produce THCA.
+This gave a maximum theoretical yield of 0.3557 molTHCA/molGLC. A phenotypic phase plane analysis and dynamic flux balance analysis are performed wich validate the production of THCA and biomass. Different optimization strategies were performed in order to improve the yield, including OptGene, OptKnock, Flux Scanning based on Objective Flux, Co-factor Swap Targets and prediction of Heterologous Pathways. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
 
 A summary of what we achieved in this project: 
-- Computed a production strategy of heterologous THCA production in *A. niger* using a GSM model, and employed various  computational methods to improve theoretical THCA yield.
+- Computed a production strategy of heterologous THCA production in *A. niger* using a GSM model CBS513.88, and employed various computational methods to improve theoretical THCA yield.
 - Computed gene regulation optimization and proposed several targets to upregulate and downregulate.
-- Investigated co-factor swapping.
 - Computed media optimization and proposed several combinations.
 - Computed dynamic flux batch analysis.
 - Computed metabolic algorithms proposing gene knockouts aiming at optimizing THCA production.
-
-
-
+- Investigated co-factor swapping.
 
 ## Project overview
-- All of our work and analysis is found in the <b>Analysis</b> folder.
-- The report lives in the Report.ipynb notebook.
+- The GSM, implementations of the THCA pathway and performed analysis can be found in the <b>Analysis</b> folder.
+- The report lives in the Report.ipynb notebook, with links to the corresponding analysis.
 - Pictures used in the report are stored in the <b>Pictures</b> folder.
 
