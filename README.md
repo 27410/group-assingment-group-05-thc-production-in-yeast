@@ -5,7 +5,7 @@
 
 ## Project summary
 Implementing and optimization of recombinant THCA production in a *Aspergillus niger* is done in the GSM-model CBS513.88. Firstly, the necessary metabolites and reactions were added to the model in order for *A. niger* to be able to produce THCA.
-This gave a maximum theoretical yield of 0.3557 molTHCA/molGLC. A phenotypic phase plane analysis and dynamic flux balance analysis are performed wich validate the production of THCA and biomass. Different optimization strategies were performed in order to improve the yield, including OptGene, OptKnock, Flux Scanning based on Objective Flux, Co-factor Swap Targets and prediction of Heterologous Pathways. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
+This gave a maximum theoretical yield of 0.3557 molTHCA/molGLC. A phenotypic phase plane analysis and dynamic flux balance analysis are performed which validate the production of THCA and biomass. Different optimization strategies were performed in order to improve the yield, including OptGene, OptKnock, Flux Scanning based on Objective Flux, Co-factor Swap Targets and prediction of Heterologous Pathways. Furthermore the pathways have been visualized using OptFlux. Python was used to computationally perform these strategies and the code can be found in the 'Analysis' folder. 
 
 A summary of what we achieved in this project: 
 - Computed a production strategy of heterologous THCA production in *A. niger* using a GSM model CBS513.88, and employed various computational methods to improve theoretical THCA yield.
